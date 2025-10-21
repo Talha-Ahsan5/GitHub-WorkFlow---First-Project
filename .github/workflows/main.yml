@@ -1,0 +1,17 @@
+name: Talha Ahsan
+
+on:  
+  push: 
+    branches: [main]
+
+jobs:
+  demo:
+    runs-on: ubunto-latest
+
+    steps: 
+      - name: Greetings
+        run: echo "Hello Talha"
+
+    
+    
+    
